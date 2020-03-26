@@ -186,7 +186,7 @@ margin: 5px;
 						<input type='text' name='codigoarticulo' placeholder='Codigo Articulo' class='form-control' required/>
 						<br /><label for='precio'>Nuevo precio</label>
 						<input type='text' name='precio' placeholder='Precio' class='form-control' required/>
-						<br /><button type='submit' class='btn btn-primary'>Enviar</button>
+						<br /><button type='submit' class='btn btn-warning'>Enviar</button>
 					</form>
        			<br />
        			<br />
@@ -205,7 +205,7 @@ margin: 5px;
 					<form method='get' action='eliminaProducto.jsp'>
 						<br /><br/><label for='codigoarticulo'>Codigo Articulo</label>
 						<input type='text' name='codigoarticulo' placeholder='Codigo Articulo' class='form-control' required/>
-						<br /><button type='submit' class='btn btn-primary'>Eliminar</button>
+						<br /><button type='submit' class='btn btn-danger'>Eliminar</button>
 					</form>
 					<br /><br />
 					<p>Para volver al inicio, haga click aqui:</p>
