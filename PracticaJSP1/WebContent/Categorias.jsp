@@ -204,7 +204,7 @@ margin: 5px;
       <div class="row">
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-2"><img class="img-circle" alt="Free Shipping" src="images/iconos/Cat8.png"></div>
         <div class="col-lg-6 col-md-9 col-sm-9 col-xs-9">
-          <h4><a href="ListaPortatiles.jsp" title="Perifericos">Tablets</a></h4>
+          <h4><a href="ListaTablets.jsp" title="Perifericos">Tablets</a></h4>
         </div>
       </div>
     </div>

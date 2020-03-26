@@ -173,8 +173,9 @@ String seccion = request.getParameter("seccion");
 String precio = request.getParameter("precio");
 String stock = request.getParameter("stock");
 String desc = request.getParameter("descripcion");
+String foto = request.getParameter("foto");
 
-String instruccionSql = "INSERT INTO PRODUCTOS (CODIGOARTICULO, NOMBREARTICULO, SECCION, PRECIO, STOCK, DESCRIPCION) VALUES ('" + codigoArticulo + "', '"+ nombreArticulo +"', '"+ seccion +"', "+ precio +", '" + stock +"', '" + desc + "');";
+String instruccionSql = "INSERT INTO PRODUCTOS (CODIGOARTICULO, NOMBREARTICULO, SECCION, PRECIO, STOCK, DESCRIPCION, FOTO) VALUES ('" + codigoArticulo + "', '"+ nombreArticulo +"', '"+ seccion +"', "+ precio +", '" + stock +"', '" + desc + "', '" + foto + "');";
 
 DatosConexion d1 = new DatosConexion();
 
@@ -210,6 +211,7 @@ Class.forName("com.mysql.jdbc.Driver");
 						<li><strong>Seccion</strong></li><%= request.getParameter("seccion") %>
 						<li><strong>Stock</strong></li><%= request.getParameter("stock") %>
 						<li><strong>Descripcion</strong></li><%= request.getParameter("descripcion") %>
+						<li><strong>Foto</strong></li><%= request.getParameter("foto") %>
 					</ul>
         			<br />
         			<br />

@@ -210,6 +210,9 @@ margin: 5px;
 						<br /><label for='descripcion'>Descripcion</label>
 						<input type='text' name='descripcion' placeholder='Tags' class='form-control' required/>
 						
+						<br /><label for='foto'>Foto</label>
+						<input type='text' name='foto' placeholder='Ingrese nombre archivo' class='form-control' required/>
+						
 						<br /><button type='submit' class='btn btn-primary'>Enviar</button>
 					
 					</form>

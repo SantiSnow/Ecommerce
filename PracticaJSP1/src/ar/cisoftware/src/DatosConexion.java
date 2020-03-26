@@ -2,7 +2,7 @@ package ar.cisoftware.src;
 
 public class DatosConexion {
 	//atributos
-	private final String direccionBaseDatos = "jdbc:mysql://localhost:3306/usuarios?serverTimezone=UTC&useSSL=false";
+	private final String direccionBaseDatos = "jdbc:mysql://localhost:3308/usuarios?serverTimezone=UTC&useSSL=false";
 	private final String usuarioBaseDatos = "root";
 	private final String contraseñaBaseDatos = "";
 	//getters
